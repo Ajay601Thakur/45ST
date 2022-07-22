@@ -32,6 +32,7 @@
 		095F6AF0A58C21CB8CA98AD2 /* Pods_45ST_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_45ST_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18907D2B288A7A15000DA554 /* _45ST.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = _45ST.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18907D30288A7DC8000DA554 /* RandomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomColors.swift; sourceTree = "<group>"; };
+		18907D32288A8861000DA554 /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
 		3C894C03FE63A25BAC32A04E /* Pods-45ST_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-45ST_Example.debug.xcconfig"; path = "Target Support Files/Pods-45ST_Example/Pods-45ST_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* 45ST_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 45ST_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -165,6 +166,7 @@
 		E53FFDE1F54CF3F86FCC4EF1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18907D32288A8861000DA554 /* ARKit.framework */,
 				18907D2B288A7A15000DA554 /* _45ST.framework */,
 				095F6AF0A58C21CB8CA98AD2 /* Pods_45ST_Example.framework */,
 				DF49E65979116E57865BBE26 /* Pods_45ST_Tests.framework */,
