@@ -1,0 +1,22 @@
+{
+  "name": "45ST",
+  "version": "0.1.0",
+  "summary": "A short description of 45ST.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/athakur220221@gmail.com/45ST",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "athakur220221@gmail.com": "amitsanvedi5@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/athakur220221@gmail.com/45ST.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "45ST/Classes/**/*"
+}

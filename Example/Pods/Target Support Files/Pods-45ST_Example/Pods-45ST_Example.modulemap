@@ -1,0 +1,6 @@
+framework module Pods_45ST_Example {
+  umbrella header "Pods-45ST_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

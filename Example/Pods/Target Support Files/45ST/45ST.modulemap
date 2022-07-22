@@ -1,0 +1,6 @@
+framework module _45ST {
+  umbrella header "45ST-umbrella.h"
+
+  export *
+  module * { export * }
+}
