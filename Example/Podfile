@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target '45ST_Example' do
+  pod '45ST', :path => '../'
+
+  target '45ST_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
