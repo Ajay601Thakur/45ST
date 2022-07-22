@@ -1,5 +1,5 @@
 PODS:
-  - 45ST (1.0.0):
+  - 45ST (1.0.1):
     - Alamofire
   - Alamofire (5.6.2)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  45ST: 15816332d225caf244b96d34abb86014468e65f8
+  45ST: c49836d326248ab2b3186391aff277d03a477ccb
   Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
 
 PODFILE CHECKSUM: ac23f179528f5111cbe1f667bacdb952871c74a1
