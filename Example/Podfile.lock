@@ -1,15 +1,22 @@
 PODS:
-  - 45ST (0.1.0)
+  - 45ST (1.0.0):
+    - Alamofire
+  - Alamofire (5.6.2)
 
 DEPENDENCIES:
   - 45ST (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
 
 EXTERNAL SOURCES:
   45ST:
     :path: "../"
 
 SPEC CHECKSUMS:
-  45ST: b99f3c536829d460663c1755826bf62003990eac
+  45ST: 8375c11e3c0fc6f6c2b57b7d7e81ef95732840b4
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
 
 PODFILE CHECKSUM: ac23f179528f5111cbe1f667bacdb952871c74a1
 

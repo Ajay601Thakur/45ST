@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18907D31288A7DC8000DA554 /* RandomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18907D30288A7DC8000DA554 /* RandomColors.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		095F6AF0A58C21CB8CA98AD2 /* Pods_45ST_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_45ST_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18907D2B288A7A15000DA554 /* _45ST.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = _45ST.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18907D30288A7DC8000DA554 /* RandomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomColors.swift; sourceTree = "<group>"; };
 		3C894C03FE63A25BAC32A04E /* Pods-45ST_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-45ST_Example.debug.xcconfig"; path = "Target Support Files/Pods-45ST_Example/Pods-45ST_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* 45ST_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 45ST_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,7 +49,7 @@
 		DF49E65979116E57865BBE26 /* Pods_45ST_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_45ST_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0C1C9F5493D42041E6C2B4F /* Pods-45ST_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-45ST_Example.release.xcconfig"; path = "Target Support Files/Pods-45ST_Example/Pods-45ST_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F1B27D569D802B130D8A42E3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F33AB86AA447F357AA70AD2E /* 45ST.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = 45ST.podspec; path = ../45ST.podspec; sourceTree = "<group>"; };
+		F33AB86AA447F357AA70AD2E /* 45ST.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = 45ST.podspec; path = ../45ST.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18907D2F288A7D94000DA554 /* Add New */ = {
+			isa = PBXGroup;
+			children = (
+				18907D30288A7DC8000DA554 /* RandomColors.swift */,
+			);
+			name = "Add New";
+			sourceTree = "<group>";
+		};
 		2DF6780D654BDE575DD40564 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +154,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				18907D2F288A7D94000DA554 /* Add New */,
 				F33AB86AA447F357AA70AD2E /* 45ST.podspec */,
 				69664E4F79575E5268D59043 /* README.md */,
 				F1B27D569D802B130D8A42E3 /* LICENSE */,
@@ -294,10 +305,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-45ST_Example/Pods-45ST_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/45ST/_45ST.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/_45ST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -335,6 +348,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				18907D31288A7DC8000DA554 /* RandomColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

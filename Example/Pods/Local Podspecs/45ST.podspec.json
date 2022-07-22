@@ -1,6 +1,6 @@
 {
   "name": "45ST",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "summary": "A short description of 45ST.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/athakur220221@gmail.com/45ST",
@@ -9,14 +9,19 @@
     "file": "LICENSE"
   },
   "authors": {
-    "athakur220221@gmail.com": "amitsanvedi5@gmail.com"
+    "athakur220221@gmail.com": "athakur220221@gmail.com"
   },
   "source": {
     "git": "https://github.com/athakur220221@gmail.com/45ST.git",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "13.0"
   },
-  "source_files": "45ST/Classes/**/*"
+  "source_files": "45ST/Classes/**/*",
+  "dependencies": {
+    "Alamofire": [
+
+    ]
+  }
 }
